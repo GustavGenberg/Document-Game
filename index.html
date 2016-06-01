@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document Game</title>
+  <link rel="stylesheet" href="/game.css">
+</head>
+<body>
+
+  <div id="Menu">
+    <h1>Document Game</h1>
+    <hr />
+    <input type="text" id="nickname" placeholder="Nickname">
+    <button data-func="Join">Join</button>
+    <hr />
+    <div id="FPS">FPS: <span></span></div>
+    <div id="PING">PING: <span></span></div>
+    <div id="rFPS">rFPS: <span></span></div>
+  </div>
+
+  <canvas id="Game"></canvas>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="http://localhost:4000/socket.io/socket.io.js"></script>
+  <script src="/game.core.js"></script>
+  <script src="/client.js"></script>
+
+</body>
+</html>

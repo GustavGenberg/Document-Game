@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(232, 232, 232);
+}
+
+* {
+  outline: none;
+}
+
+#Game {
+  margin: 25px 25px 0 25px;
+  border: 1px solid red;
+}
+
+#Menu {
+  background: rgb(255, 255, 255);
+  width: 300px;
+  height: calc(100% - 50px);
+  position: fixed;
+  top: 25px;
+  /*left: calc(50% - 150px);*/
+  right: 25px;
+}
+
+h1 {
+  font-weight: 100;
+  text-align: center;
+  display: block;
+}
+
+input {
+  padding: 10px 15px;
+  font-size: 19px;
+  margin: 5px;
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+}
+
+button {
+  background: rgb(98, 201, 6);
+  padding: 10px 15px;
+  font-size: 19px;
+  margin: 5px;
+  width: calc(100% - 10px);
+  box-sizing: border-box;
+  color: white;
+}

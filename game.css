@@ -11,6 +11,10 @@ body {
 #Game {
   margin: 25px 25px 0 25px;
   border: 1px solid red;
+
+  background-image: url(https://cdn.theatlantic.com/assets/media/img/mt/2016/03/RTX283V4/lead_960.jpg?1457553386);
+  background-size: cover;
+  background-position: center center;
 }
 
 #Menu {
@@ -45,4 +49,8 @@ button {
   width: calc(100% - 10px);
   box-sizing: border-box;
   color: white;
+}
+
+.s {
+  display: inline;
 }

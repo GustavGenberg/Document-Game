@@ -13,17 +13,33 @@
     <input type="text" id="nickname" placeholder="Nickname">
     <button data-func="Join">Join</button>
     <hr />
-    <div id="FPS">FPS: <span></span></div>
-    <div id="PING">PING: <span></span></div>
-    <div id="rFPS">rFPS: <span></span></div>
+    <div class="s" id="FPS">FPS: <span></span></div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span data-func="StopDrawing">Stop</span> | <span data-func="StartDrawing">Start</span>
+    <br />
+    <div class="s" id="PING">PING: <span></span></div>
+    <br />
+    <div class="s" id="rFPS">rFPS: <span></span></div>
+    <br />
+    <div class="s" id="KEYS">Keys: <span></span></div>
   </div>
 
   <canvas id="Game"></canvas>
 
   <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <script src="http://localhost:4000/socket.io/socket.io.js"></script>
-  <script src="/game.core.js"></script>
-  <script src="/client.js"></script>
+  <script src="/client.core.js"></script>
+  <script src="/client.events.js"></script>
+  <script>
+  var Game;
+
+  $(document).ready(function () {
+    Game = new Game();
+
+    if(Game.CheckSocketCompitability()) {
+      Game.Connect();
+      Game.StartDrawing();
+    }
+  });
+  </script>
 
 </body>
 </html>

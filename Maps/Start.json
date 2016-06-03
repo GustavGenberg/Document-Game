@@ -1,0 +1,77 @@
+[
+  [
+    "Button_Red_Up",
+    10,
+    380,
+    50,
+    20
+  ],
+
+
+  [
+    "Grass_Tile_Flat",
+    0,
+    400,
+    100,
+    100
+  ],
+  [
+    "Grass_Tile_Flat",
+    100,
+    400,
+    100,
+    100
+  ],
+  [
+    "Grass_Tile_Slope_down",
+    200,
+    400,
+    100,
+    100
+  ],
+
+
+
+  [
+    "Grass_Tile_lower",
+    0,
+    500,
+    100,
+    100
+  ],
+  [
+    "Grass_Tile_lower",
+    100,
+    500,
+    100,
+    100
+  ],
+  [
+    "Grass_Tile_Slope_Connector_r",
+    200,
+    500,
+    100,
+    100
+  ],
+  [
+    "Grass_Tile_Flat",
+    300,
+    500,
+    100,
+    100
+  ],
+  [
+    "Water_Tile_Top",
+    400,
+    520,
+    100,
+    50
+  ],
+  [
+    "Water_Tile",
+    400,
+    570,
+    100,
+    100
+  ]
+]
